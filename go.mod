@@ -1,6 +1,8 @@
 module bsc-scan-erigon
 
-go 1.24
+go 1.23.0
+
+toolchain go1.24.0
 
 replace github.com/erigontech/erigon-lib => ./erigon-lib
 
@@ -8,8 +10,8 @@ require (
 	github.com/ClickHouse/clickhouse-go/v2 v2.33.0
 	github.com/erigontech/erigon v1.9.7-0.20250310084104-eef893abc581
 	github.com/erigontech/erigon-lib v1.0.0
-	github.com/ledgerwatch/log/v3 v3.9.0
 	github.com/holiman/uint256 v1.3.2
+	github.com/ledgerwatch/log/v3 v3.9.0
 	github.com/panjf2000/ants/v2 v2.11.2
 	github.com/urfave/cli/v2 v2.27.6
 	golang.org/x/crypto v0.36.0
