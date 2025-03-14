@@ -7,6 +7,7 @@ toolchain go1.24.0
 replace github.com/erigontech/erigon-lib => ./erigon-lib
 
 require (
+	github.com/crate-crypto/go-kzg-4844 v1.1.0
 	github.com/ClickHouse/clickhouse-go/v2 v2.33.0
 	github.com/erigontech/erigon v1.9.7-0.20250310084104-eef893abc581
 	github.com/erigontech/erigon-lib v1.0.0
